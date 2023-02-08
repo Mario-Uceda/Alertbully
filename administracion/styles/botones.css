@@ -1,0 +1,56 @@
+button {
+    background-color: #a73f2d;
+    border-radius: 12px;
+    border: none;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+    outline: none;
+    padding: 16px 22px;
+    text-decoration: none;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #b34332;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+.botonesPrincipal {
+    margin-top: 3%;
+}
+
+.botonesPrincipal button {
+    margin: 3%;
+}
+
+.botonAdaptable {
+    min-width: 300px !important;
+    width: fit-content;
+}
+
+.botonGuardar {
+    background-color: #137a61;
+}
+
+.botonGuardar:hover {
+    background-color: #269e81;
+}
+
+.botonGuardarDeshabilitado {
+    background-color: #a73f2d;
+}
+
+.botonDesactivarRegistro {
+    width: fit-content;
+    background: transparent;
+    color: #a73f2d;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,55 @@
+form {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.group {
+    width: max-content;
+    position: relative;
+    margin: 45px auto;
+}
+
+input:not([type='checkbox']) {
+    background-color: transparent;
+    padding: 10px 10px 10px 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+    width: 300px;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: #999;
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    font-size: 1em;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+label.radio {
+    color: black !important;
+    position: relative;
+    top: 0 !important;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -25px;
+    color: #a73f2d;
+}
+
+select {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 6%;
+    width: 300px;
+}

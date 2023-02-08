@@ -1,0 +1,20 @@
+/* MOVILES */
+
+@media screen and (max-width: 450px) {
+    header {
+        padding: 0;
+    }
+    .principal {
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+        padding: 40px 0 !important;
+        top: -7px !important;
+        width: inherit !important;
+    }
+    .principal h1 {
+        font-size: 2em;
+    }
+    .recuerdame {
+        margin-bottom: 6% !important;
+    }
+}

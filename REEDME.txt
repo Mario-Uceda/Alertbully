@@ -1,0 +1,21 @@
+Web de administración: https://admin.alertbully.es/
+
+· Usuario por defecto para el panel de administración:
+	- Usuario: admin
+	- Contraseña: alertbully
+
+-----------------------------------------------------------------------
+
+Web de usuarios: https://alertbully.es/
+
+· Usuario por defecto del equipo directivo del IES Villaverde:
+	- Usuario: ibai@llanura.email
+	- Contraseña: alertbully
+
+· Usuario por defecto tutor de 2DAM del IES Villaverde:
+	- Usuario: guillermo@diaz.email
+	- Contraseña: alertbully
+
+· Usuario por defecto alumno de 2DAM del IES Villaverde:
+	- Usuario: Samuel@DL.email
+	- Contraseña: alertbully

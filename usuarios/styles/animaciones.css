@@ -1,0 +1,42 @@
+header {
+  animation: 1s header;
+}
+
+@keyframes header {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+footer {
+  animation: 1s footer;
+}
+
+@keyframes footer {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.principal {
+  animation: 1s principal;
+}
+
+@keyframes principal {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}

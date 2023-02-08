@@ -1,0 +1,80 @@
+header {
+    background-color: #aa2e25;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    height: fit-content;
+    overflow: hidden;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header a,
+header .logo {
+    border-radius: 4px;
+    color: #FFF;
+    float: left;
+    font-size: 1.3em;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header .logo {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.header-dere {
+    float: right;
+}
+
+.header-dere a:hover {
+    background: #b34332;
+}
+
+.header-dere a.active {
+    background-color: #801313;
+    color: white;
+}
+
+.header-dere .icono {
+    display: none;
+    border-radius: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .header-dere a:not(.atras) {
+        display: none;
+    }
+    .header-dere a.icono {
+        float: right;
+        display: block;
+        background-color: #aa2e25;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-dere.responsive a.primero {
+        display: inline-block;
+        width: 100%;
+    }
+    .header-dere.responsive {
+        position: relative;
+        float: inherit !important;
+    }
+    .header-dere.responsive .icono {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header-dere.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-dere.responsive .atras {
+        display: none;
+    }
+}
